@@ -1,0 +1,10 @@
+include "SmallTable.fbs";
+
+namespace FlatTest;
+
+table SmallTableCollection
+{
+    c1:[SmallTable];
+}
+
+root_type SmallTableCollection;

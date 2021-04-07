@@ -1,0 +1,6 @@
+namespace FlatTest;
+table SmallTable
+{
+    belment:ubyte;
+}
+root_type SmallTable;
